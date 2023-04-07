@@ -32,6 +32,22 @@ In addition, the Smart Notes app allows users to add tags and notes to their sav
 The Smart Notes application is designed to be user-friendly and intuitive, with a simple and clean interface that allows users to navigate and access their saved messages easily. Overall, the app provides a powerful solution for anyone looking to manage their saved messages more efficiently and effectively.<br>
 
 
+
+## Features
+
+The Smart Notes application offers the following features:
+
+1. Import messages: Users can import saved messages from various platforms, including emails, chat applications, and social media platforms.
+
+2. Automatic categorization: The application uses advanced algorithms to categorize saved messages into different folders based on their content, making it easy for users to find specific messages.
+
+3. Tagging and notes: Users can add tags and notes to their saved messages, allowing for further organization and retrieval.
+
+4. Search function: The application provides a search function that enables users to quickly find messages by keyword or tag.
+
+<br>
+
+
 ## Links
 * Codelab Documentation - [Codelab](https://codelabs-preview.appspot.com/?file_id=1vdqyyXWdfmrKZww20KxfUh0Gximydyv3gAmIn1G1pTU/#0)
 * GitHub Repository - [GitHub](https://github.com/BigDataIA-Spring2023-Team-12/NotesAI)
