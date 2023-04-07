@@ -1,15 +1,32 @@
 # Assignement 5 : NotesAI
 
+![MarriedShortGalapagossealion-size_restricted](https://user-images.githubusercontent.com/114712818/230681480-13e21bff-e7df-4da2-967d-fedef3d17932.gif)
 
 ## About 
 
-Model as a Service (MaaS) is a cloud computing service model that provides access to pre-built and trained machine learning models, usually through Application Programming Interfaces (APIs). With MaaS, businesses and developers can leverage the expertise of third-party providers to easily integrate machine learning capabilities into their products or services, without the need for extensive knowledge of machine learning or data science. MaaS enables organizations to accelerate the development of AI-powered solutions, reduce development costs and time-to-market, and benefit from the scalability and flexibility of cloud computing.<br><br>
+Ever revisited the saved messages from different platforms?? Your important data is still out there, yet sitting idle being of no use! <br>
 
-In the scope of this assignment, we will be building a streamlit application for Meeting Intelligence, that interacts with state of the art models developed by OpenAI. <br>
-The application will be used for processing audio files from a given meeting into a transcipt and to extract important information related to or discussed within the same.<br><br>
+What if there was a smarter way of accessing your data from the past?<br>
 
-The service will use two popular APIs - Whisper and Chatgpt
+What? Seriously?<br>
 
+I want a application that can do that!!!! <br>
+
+Not only that, our application will let you get your data in an ORGANIZED, STRUCTURED, SUMMARIZED and on top of that you can can QUERY random question to get important information which is PRECISE and SUCCINT! <br>
+
+Woah!
+
+
+
+This Smart Notes application is designed to help users organize and manage their saved messages from various platforms in a structured and efficient manner. The application allows users to categorize their saved messages may be it anything, a random code you saved, an important article you saved, literraly anything!!
+
+
+
+The application utilizes advanced algorithms to extract relevant information from the saved messages and automatically categorize them into different folders based on their content. This makes it easy for users to find and retrieve specific messages quickly.
+
+In addition, the Smart Notes app allows users to add tags and notes to their saved messages, which can further aid in organization and retrieval. The app also provides a search function that enables users to quickly find messages by keyword or tag.
+
+The Smart Notes application is designed to be user-friendly and intuitive, with a simple and clean interface that allows users to navigate and access their saved messages easily. Overall, the app provides a powerful solution for anyone looking to manage their saved messages more efficiently and effectively.
 1. Whisper:<br>
 (https://openai.com/research/whisper) <br>
 The Whisper system is an automatic speech recognition system technology that has been programmed using supervised data collected from the internet. This data comprises over 680,000 hours of multilingual and multitask information. By utilizing this vast and varied dataset, the system has demonstrated an increased ability to accurately transcribe speech regardless of accents, background noise or technical jargon. Additionally, the technology has the capability to transcribe multiple languages and translate them into English.<br><br>
