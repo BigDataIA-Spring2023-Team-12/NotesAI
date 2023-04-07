@@ -57,15 +57,6 @@ with st.sidebar:
                     st.error("Email already exists! Sign in to continue...")
 
 
-    # if selected == "Change Password":
-    #     st.write('## Change Password')
-    #     fp_username = st.text_input('Username',key='Fp_username')
-    #     fp_old_password = st.text_input('Current Password')
-    #     fp_new_password = st.text_input('New Password')
-    #     if st.button('Change Password'):
-    #         # send change password request
-    #         change_password_request(fp_username,fp_old_password,fp_new_password)  
-
 if  st.session_state['login'] == True:
     st.title("Welcome to the Chatbox")
 
