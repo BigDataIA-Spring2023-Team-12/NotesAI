@@ -12,6 +12,7 @@ def get_db(db):
     parent = os.path.dirname(current_path)
     db_path = parent + "/streamlit/database/{}".format(db)
     print(db_path)
+
     conn = sqlite3.connect(db_path,check_same_thread=False)
     cursor = conn.cursor()
     return conn, cursor
