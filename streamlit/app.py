@@ -56,7 +56,15 @@ with st.sidebar:
                 else:
                     st.error("Email already exists! Sign in to continue...")
 
-
+if  st.session_state['login'] != True:
+    st.title("Welcome to NotesAI 📝")
+    st.write("""
+    This Smart Notes application is designed to help users organize and manage their saved messages 
+    from various platforms in a structured and efficient manner. The application allows users to categorize their saved messages may be it anything, 
+    a random code you saved, an important article you saved, literraly anything!!
+    The application utilizes advanced algorithms to extract relevant information from the saved messages and automatically categorize them into different folders based on their content. 
+    This makes it easy for users to find and retrieve specific messages quickly.
+    """)
 if  st.session_state['login'] == True:
     st.title("Welcome to the Chatbox")
 
