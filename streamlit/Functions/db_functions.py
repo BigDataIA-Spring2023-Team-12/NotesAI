@@ -11,7 +11,7 @@ def get_db(db):
     # parent directory
     current_path = os.getcwd()
     parent = os.path.dirname(current_path)
-    db_path = parent + "/streamlit/database/{}".format(db)
+    db_path = current_path + "/streamlit/database/{}".format(db)
     st.write(db_path)
     st.write(parent)
     st.write(current_path)
