@@ -1,10 +1,11 @@
 # Assignement 5 : NotesAI
 
-![MarriedShortGalapagossealion-size_restricted](https://user-images.githubusercontent.com/114712818/230681480-13e21bff-e7df-4da2-967d-fedef3d17932.gif)
+![200w](https://user-images.githubusercontent.com/114712818/230682447-5002a54d-5ad8-4616-84d2-4d069de92609.gif)
+
 
 ## About 
 
-Ever revisited the saved messages from different platforms?? Your important data is still out there, yet sitting idle being of no use! <br>
+Ever revisited the saved messages you keep dumping on different platforms?? Your important data is still out there, yet sitting idle being of no use! <br>
 
 What if there was a smarter way of accessing your data from the past?<br>
 
@@ -14,30 +15,21 @@ I want a application that can do that!!!! <br>
 
 Not only that, our application will let you get your data in an ORGANIZED, STRUCTURED, SUMMARIZED and on top of that you can can QUERY random question to get important information which is PRECISE and SUCCINT! <br>
 
-Woah!
+Woah! <br>
+
+
+<br>
+<br>
+
+This Smart Notes application is designed to help users organize and manage their saved messages from various platforms in a structured and efficient manner. The application allows users to categorize their saved messages may be it anything, a random code you saved, an important article you saved, literraly anything!! <br>
 
 
 
-This Smart Notes application is designed to help users organize and manage their saved messages from various platforms in a structured and efficient manner. The application allows users to categorize their saved messages may be it anything, a random code you saved, an important article you saved, literraly anything!!
+The application utilizes advanced algorithms to extract relevant information from the saved messages and automatically categorize them into different folders based on their content. This makes it easy for users to find and retrieve specific messages quickly.<br>
 
+In addition, the Smart Notes app allows users to add tags and notes to their saved messages, which can further aid in organization and retrieval. The app also provides a search function that enables users to quickly find messages by keyword or tag.<br>
 
-
-The application utilizes advanced algorithms to extract relevant information from the saved messages and automatically categorize them into different folders based on their content. This makes it easy for users to find and retrieve specific messages quickly.
-
-In addition, the Smart Notes app allows users to add tags and notes to their saved messages, which can further aid in organization and retrieval. The app also provides a search function that enables users to quickly find messages by keyword or tag.
-
-The Smart Notes application is designed to be user-friendly and intuitive, with a simple and clean interface that allows users to navigate and access their saved messages easily. Overall, the app provides a powerful solution for anyone looking to manage their saved messages more efficiently and effectively.
-1. Whisper:<br>
-(https://openai.com/research/whisper) <br>
-The Whisper system is an automatic speech recognition system technology that has been programmed using supervised data collected from the internet. This data comprises over 680,000 hours of multilingual and multitask information. By utilizing this vast and varied dataset, the system has demonstrated an increased ability to accurately transcribe speech regardless of accents, background noise or technical jargon. Additionally, the technology has the capability to transcribe multiple languages and translate them into English.<br><br>
-For our service, we will use the whisper API to convert the audio file into processed transcripts which will be utilized by Chatgpt microservice to work upon the textual data.
-
-2. ChatGPT:<br>
-(https://platform.openai.com/docs/guides/chat) <br>
-ChatGPT API is an API (Application Programming Interface) based on the GPT (Generative Pre-trained Transformer) architecture developed by OpenAI. It allows developers to integrate state-of-the-art natural language processing (NLP) capabilities into their applications, such as chatbots, virtual assistants, and other conversational interfaces. The API can generate human-like responses to a wide variety of prompts, including text-based input and voice-based input, making it a powerful tool for building engaging and intelligent conversational applications.<br><br>
-For our service, we will utilize the Chatgpt API which will give answers to pre-defined prompts and user-defined prompts. The API will take the processed audio transcript as produced by whisper and answer general and user-given question based on the provided context. 
-
-
+The Smart Notes application is designed to be user-friendly and intuitive, with a simple and clean interface that allows users to navigate and access their saved messages easily. Overall, the app provides a powerful solution for anyone looking to manage their saved messages more efficiently and effectively.<br>
 
 
 ## Links
@@ -81,7 +73,9 @@ Process Flow :-
 
 ##### /streamlit
 Includes the streamlit application interface for the user to interact with the whisper and chatgpt functionalities. It consists mutiple directories, with the required utilities. Launch the application by running "app.py". The dependent functions and utilities are written and imported from "utils". Also contains the SQLite db file initialized for storing questions data.  
-
+###### /database
+###### /Functions
+###### /promt
 
 
 
