@@ -96,3 +96,6 @@ if  st.session_state['login'] == True:
     if st.button("Organize"):
             organize = organize_context(context_str)
             st.write(organize)
+
+
+    
