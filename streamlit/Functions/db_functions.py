@@ -2,6 +2,7 @@ import sqlite3
 import pandas as pd
 import os
 from datetime import  datetime 
+import streamlit as st
 
 
 
@@ -11,7 +12,7 @@ def get_db(db):
     current_path = os.getcwd()
     parent = os.path.dirname(current_path)
     db_path = parent + "/streamlit/database/{}".format(db)
-    print(db_path)
+    st.write(db_path)
 
     conn = sqlite3.connect(db_path,check_same_thread=False)
     cursor = conn.cursor()
